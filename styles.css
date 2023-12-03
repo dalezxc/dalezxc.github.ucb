@@ -1,0 +1,33 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(2, 89, 2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #game-container {
+            border: 2px solid black;
+            padding: 20px;
+            background-color: antiquewhite;
+        }
+        h1{
+            color: black;
+            background-color: antiquewhite;
+            border: dotted;
+        }
+
+        button { 
+            margin: 5px; 
+        }
+
+        #game { 
+            display: none; 
+        }
+
+        #winner { 
+            margin: 20px 0; 
+        }
+        
